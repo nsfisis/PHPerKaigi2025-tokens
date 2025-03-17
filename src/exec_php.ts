@@ -14,7 +14,7 @@ let fetchingWasmBinaryPromise: Promise<ArrayBuffer> | null = null;
 async function fetchWasmBinary(): Promise<ArrayBuffer> {
 	if (!fetchingWasmBinaryPromise) {
 		fetchingWasmBinaryPromise = new Promise((resolve, reject) => {
-			fetch("/php-wasm.wasm")
+			fetch(import.meta.env.BASE_URL + "/php-wasm.wasm")
 				.then((res) => {
 					if (!res.ok) {
 						reject(`Failed to fetch wasm binary: ${res.status} (${res.url})`);

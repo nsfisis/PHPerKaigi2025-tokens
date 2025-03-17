@@ -6,7 +6,7 @@
 
 ## 問題
 
-https://nsfisis.github.io/PHPerKaigi2025-tokens/index.html
+https://nsfisis.github.io/PHPerKaigi2025-tokens/ をご覧ください。
 
 ## 注意
 
